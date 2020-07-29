@@ -4,6 +4,7 @@ import ParentComponent from "./PassingProps/ParentComponent";
 import Presidents from "./PassingProps/GeneratingList/Presidents";
 import ClickCounter from "./Events/ClickCounter";
 import TenLittleMonkeys from "./Events/TenLittleMonkeysJumpingOnBed";
+import ParentMorty from "./Fetching/ParentMorty";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <Presidents /> */}
       {/* <ClickCounter /> */}
-      <TenLittleMonkeys />
+      {/* <TenLittleMonkeys /> */}
+      <ParentMorty />
     </div>
   );
 }
